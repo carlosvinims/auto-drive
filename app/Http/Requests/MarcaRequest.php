@@ -24,7 +24,7 @@ class MarcaRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'nome' => ['required','string', Rule::unique('veiculo','nome')],
+            'nome' => ['required','string', Rule::unique('marcas','nome')],
         ];
     }
 }

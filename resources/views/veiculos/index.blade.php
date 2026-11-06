@@ -24,7 +24,7 @@
                     {{ ucfirst($veiculo->status) }} </span>
             </div>
             <div class="card-footer bg-white border-0 text-end"> <a href="{{ route('veiculos.edit', $veiculo) }}"
-                    class="btn btn-sm btnoutline-primary">Editar</a>
+                    class="btn btn-sm btn-outline-primary">Editar</a>
                 <form action="{{ route('veiculos.destroy', $veiculo) }}" method="POST" class="d-inline"> @csrf
                     @method('DELETE') <button class="btn btn-sm btn-outline-danger"
                         onclick="return confirm('Excluir veículo?')">Excluir</button> </form>

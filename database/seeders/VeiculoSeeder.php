@@ -17,7 +17,7 @@ class VeiculoSeeder extends Seeder
             'marca_id' => 2,
             'modelo' => 'Corolla 2.0 XE',
             'ano' => '2020',
-            'preco' => 40.000,
+            'preco' => 55000,
             'status' => 'disponivel',
         ]);
 
@@ -25,7 +25,7 @@ class VeiculoSeeder extends Seeder
             'marca_id' => 2,
             'modelo' => 'Corolla 2.0 XE',
             'ano' => '2022',
-            'preco' => 55.000,
+            'preco' => 60895,
             'status' => 'reservado',
         ]);
 
@@ -33,7 +33,7 @@ class VeiculoSeeder extends Seeder
             'marca_id' => 1,
             'modelo' => 'Onix LTZ',
             'ano' => '2014',
-            'preco' => 22.000,
+            'preco' => 22586,
             'status' => 'vendido',
         ]);
     }

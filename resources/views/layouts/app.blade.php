@@ -16,8 +16,8 @@
             <div class="navbar-nav">
                 <a class="nav-link" href="{{ route('veiculos.index') }}">Veículos</a>
                 <a class="nav-link" href="{{ route('marcas.index') }}">Marcas</a>
-                <a class="btn btn-outline-light btn-sm ms-2" href="{{ 
-route('veiculos.create') }}">+ Novo Veículo</a>
+                <a class="btn btn-outline-light btn-sm ms-2" href="{{ route('veiculos.create') }}">+ Novo Veículo</a>
+                <a class="btn btn-outline-light btn-sm ms-2" href="{{ route('marcas.create') }}">+ Nova Marca</a>
             </div>
         </div>
     </nav>
