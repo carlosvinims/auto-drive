@@ -27,7 +27,7 @@ class VeiculoRequest extends FormRequest
             'marca_id' => ['required', 'integer', Rule::exists('marcas','id')],
             'modelo' => ['required', 'string', 'min:2'],
             'ano' => ['required', 'integer', 'min:1990'],
-            'preco' => ['required', 'min:1.000'],
+            'preco' => ['required', 'min:1.000' ],
             'status' => ['required', Rule::in('disponivel','reservado','vendido')],
         ];
     }
